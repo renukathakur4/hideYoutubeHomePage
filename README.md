@@ -26,3 +26,9 @@ The extension should now be loaded, and you’ll see it listed in your Chrome ex
 **4. Test the Extension on YouTube**
 Open a new tab in Chrome and go to YouTube.
 The extension should be active, and it will block YouTube recommendations, replacing them with the custom UI overlay.
+
+
+**Features:**
+1. Creating an overlay on the YouTube homepage.
+2. Hiding the overlay on a video page (/watch?v=) or the search results page.
+3. Observing URL changes to detect when the user navigates away from the homepage to another section of YouTube and remove the overlay.
